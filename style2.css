@@ -1,0 +1,749 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.google.com/specimen/Roboto");
+  }
+
+@media(max-width: 1300px) {
+    .navbar{
+        
+    }
+}
+
+.navbare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.attribut{
+    border-collapse: separate;
+    border-spacing: 25px;
+    color: black;
+    opacity: 0.72;
+}
+.attrib{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.attrib:hover{
+    text-decoration: none;
+    color: blue;
+    font-size: 16px;
+}
+
+.outils{
+    text-decoration: none;
+    font-size: 17px;  
+}
+.plus{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    opacity: 0.72;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 130px;
+    height: 50px;   
+    text-align: justify; 
+
+    background-image: url('Ressources/angle-petit-bas (1).png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-left: 10px;
+}
+.connexion{
+    background-color:#ffff;
+    font-size: 16px;
+   text-align: center;
+   color: #5187cc;
+   padding: 10px 10px 10px 10px;
+   border: none;
+   border-radius: 5px;
+   font-weight: bold;
+   font-family: 'Roboto',sans-serif;
+    width: 150px;
+    height: 50px;
+}
+.connexion:hover{
+    color: #08336c;
+    background-color: rgb(188, 195, 217);
+}
+
+.essayer{
+    background-color: #1a73e8;
+    font-size: 16px;
+    font-weight: 500;
+   text-align: center;
+   color: #ffff;
+   padding: 10px 10px 10px 10px;
+   border: 1px solid gray;
+     border-radius: 5px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-weight: bold;
+    width: 250px;
+    height: 50px;
+}
+.essayer:hover{
+    color: #143867;
+    background-color: rgb(40, 40, 105);
+    border-color: #124f9f;
+    color: #ffff;
+}
+.acceder{
+    background-color:#ffff;
+    font-size: 16px;
+   text-align: center;
+   color: #1a73e8;
+   padding: 10px 10px 10px 10px;
+   border: 0.5px solid rgb(189, 188, 188);
+   border-radius: 5px;
+   font-weight: bold;
+   font-style: normal;
+   font-weight: 400;
+   font-family: 'Roboto',sans-serif;
+    width: 200px;
+    height: 50px;
+    
+}
+.acceder:hover{
+    color: #08336c;
+    background-color: rgb(231, 231, 232);
+    border-color: #1a73e8;
+}
+
+.drive{
+    margin-top: 30px;
+    opacity: 0.72;
+    margin-right: 50px;
+    
+    color: black;
+}
+.Logo{
+    margin-right: 10px;
+}
+.flat-button{
+    text-decoration: none;
+    color: black;
+}
+.dri{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.Accéder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 35px;
+    font-family: 'Roboto',sans-serif;
+      font-style: normal;
+    margin-left: 100px;
+    overflow: hidden;
+ }
+
+ @media (max-width:1300px) {
+    .Accéder{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 0;
+    }
+    .table,.stock{
+        text-align: center;
+
+    }
+    .a{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+    .table a .Essayer{
+        width: 180px;
+        font-size: 14px;
+    }
+    .table a .Acceder{
+        width: 150px;
+        font-size: 14px;
+    }
+    .img{
+       width: 650px;
+       
+    }
+ }
+ .dec{
+     text-align: center;
+     margin-top: 50px;
+     opacity: 0.65;
+     font-weight: bold;
+ }
+ .stock{
+     font-size: 20px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     opacity: 0.70;
+     margin-top: 30px;
+ }
+ 
+ .table{
+    
+     table-layout: fixed;
+     border-collapse: separate;
+     border-spacing: 20px;
+     font-size: 55px;
+     font-weight: normal;
+     margin-top: 50px;
+     
+ }
+ .img{
+    height: 500px;
+    margin-top: 23px;
+}
+.connect{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    position: relative;
+    opacity: 0.75;
+    font-size: 15px;
+}
+.inscription{
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.Essayer{
+    background-color: #1a73e8;
+    font-size: 16px;
+    opacity: none;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    
+}
+.Essayer:hover{
+    background-color: rgb(40, 40, 105);
+    border-color: #124f9f;
+    color: #ffff;
+}
+.Acceder{
+    background-color:#ffff;
+    border: 1px solid gray;
+    font-size: 16px;
+    opacity: none;
+   text-align: center;
+   color: #1a73e8;
+   font-weight: bold;
+   font-family: 'Roboto',sans-serif;
+    
+}
+.Acceder:hover{
+    color: #08336c;
+    background-color: rgb(231, 231, 232);
+}
+.acces{
+    font-family: "Roboto",sans-serif;
+}
+
+@media (max-width:1300px) {
+    .acces{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .dec{
+        text-align: center;
+        margin-top: 50px;
+        opacity: 0.65;
+        font-weight: bold;
+        justify-content: space-between;
+    } 
+}
+.prot{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 20px;
+   font-family:"Roboto",sans-serif;
+   margin-left: 20px;
+   overflow: auto;
+
+}
+.Title1{
+    font-family: "Roboto",sans-serif;
+    font-size:35px;
+}
+.txt{
+    font-family: "Roboto",sans-serif;
+    opacity: 0.70;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.txte{
+    font-family: "Roboto",sans-serif;
+    text-align: justify;
+    margin-top: 30px;
+}
+.imag{
+    
+    margin-left: 50px;
+    width: 700px;
+    margin-top: 25px;
+}
+.protect{
+    text-align: justify;
+    margin-right: 70px;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.appli{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.applications{
+    text-align: justify;
+    
+    margin-left: 60px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.image{
+    margin-right: 50px;
+    margin-left: 35px;
+    height: 600px;
+    margin-top: 23px;
+}
+.inter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    overflow: auto;
+    margin-top: 100px;
+}
+
+.im{
+    margin-right: 50px;
+    margin-left: 40px;
+    width: 700px;
+    margin-top: 23px;
+}
+.integration{
+    text-align: justify;
+    margin-right: 100px;
+    margin-left: 50px;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.techn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    overflow: hidden;
+    margin-top: 150px;
+}
+.technologie{
+     text-align: justify;
+    margin-right: 70px;
+    margin-left: 70px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.ima{
+    margin-right: 40px;
+    margin-left: 50px;
+    height: 500px;
+    margin-top: 23px;
+}
+.Caroussel{
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-right: 100px;
+    background-color: rgb(247, 247, 247);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    
+}
+.glue-page6{
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 45px;
+    margin-top: 40px;
+    opacity: 0.85;
+}
+.logo-page{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 100px;
+    margin-bottom: 90px;
+}
+.im1{
+    margin-right: 10px;
+}
+.im2{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.im3{
+    margin-right: 10px;
+    margin-left: 25px;
+}
+.im4{
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.caroussel-list{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #ffff;
+    width: 1000px;
+    height: 400px;
+}
+.caroussel-list:hover{
+    border-color: #08336c;
+}
+.caroussel{
+    display: inline-block;
+    width: 100%;
+}
+.caroussel-page1-header{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.caroussel-page1-content{
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.caroussel-page1-foot{
+    text-decoration: none;
+    color: #1a73e8;
+}
+.caroussel-page1-foot:hover{
+    border: #1a73e8;
+    background-color: rgb(210, 210, 214);
+    border-color:transparent;
+
+}
+.Drive{
+    font-size: 37px;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    align-items: center;
+    margin-top: 150px;
+
+
+}
+.align{
+    border: #ffff;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    padding-right: 10px;
+
+}
+.picture{
+   width: 180px;
+   height: 100px;
+    margin-right: 30px;
+    border: 1px solid rgb(214, 207, 207) ;
+    border-color: rgb(214, 207, 207,0.3) ;
+    transition: border 1s ease;
+    display: inline-block;
+    align-items: center;
+    
+}
+a {
+    text-decoration: none;
+}
+.picture:hover{
+    box-shadow: 0 0 15px rgb(214, 207, 207,0.3);
+    transform: scale(1.1)
+}
+
+.text1{
+    
+    text-align: center;
+    font-size: 37px;
+    font-family: "Roboto",sans-serif;
+}
+.text2{
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.70;
+    font-family: "Roboto",sans-serif;
+}
+.text3{
+    text-align: center;
+
+    font-size: 18px;
+    font-family: "Roboto",sans-serif;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    
+}
+.images1{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 480px;
+    margin-right: 300px;
+    width: 550px;
+    height: 50px;
+}
+
+.container{
+    border-left: none;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 17px;
+}
+.container table{
+    border-collapse: collapse;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.container table thead tr th{
+    border: 1px solid #ccc;
+    padding: 8px;
+    
+}
+
+.container table tbody tr td{
+    border: 1px solid #ccc;
+}
+
+.container table thead tr th{
+    height: 40vh;
+    width: 300px;
+    border-left: none;
+}
+.container table thead tr th:first-child{
+    border-top: none;
+}
+
+.container table tbody tr td {
+    height: 100px;
+}
+
+.text4{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.70;
+}
+.Acces{
+    background-color:#ffff;
+    font-size: 16px;
+    opacity: none;
+   text-align: center;
+   color: #1a73e8;
+   padding: 10px 10px 10px 10px;
+   border: 0.5px solid rgb(189, 188, 188);
+   border-radius: 5px;
+   font-weight: bold;
+   font-style: normal;
+   font-weight: 400;
+   font-family: 'Roboto',sans-serif;
+    width: 100px;
+    height: 50px;
+   margin-top: 50px;
+    
+}
+.Acces:hover{
+    color: #08336c;
+    background-color: rgb(231, 231, 232);
+    border-color: #1a73e8;
+}
+.text5{
+    font-family: "Roboto",sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #1a73e8;
+}
+.text6{
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.70;
+}
+.Essaie{
+    background-color: #1a73e8;
+    font-size: 16px;
+    opacity: none;
+   text-align: center;
+   color: #ffff;
+   padding: 10px 10px 10px 10px;
+   border: 1px solid gray;
+     border-radius: 5px;
+     font-family: 'Roboto',sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-weight: bold;
+    width: 100px;
+    height: 50px;
+    
+}
+.Essaie:hover{
+    color: #143867;
+    background-color: rgb(40, 40, 105);
+    border-color: #124f9f;
+    color: #ffff;
+}
+.icone-infos{
+    opacity: 0.60;
+    width: 15px;
+}
+.Connexion{
+    text-decoration: none;
+    font-size: 16px;
+    color: #1a73e8;
+    margin-left: 35px;
+    text-align: justify;
+    border: 20px;
+}
+.back{
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back1{
+    text-align: center;
+}
+.back2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.back3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.ba{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.slider{
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    text-decoration-color: #ffff;
+    
+}
+.slider_content{
+    scroll-behavior: smooth;
+    
+}
+.slider_nav_button{
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    transition: 0.3s all ease-out;
+}
+
+.slider_nav_button:hover{
+    border-radius: 50%;
+}
+
+.slider_nav_button svg{
+   width: 40px;
+   height: 40px;
+    
+}
+.slider_nav_button-next{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    text-align: right;
+    transform: translateX(50%);
+    cursor: pointer;
+}
+
+.slider_nav_button-prev{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.slider_nav_button svg path{
+   stroke: black;
+     
+ }
+
+ .carousel-indicators{
+    margin-top: 20%;
+ }
+ 
+ #carouselExampleIndic {
+    background-color: rgb(102, 103, 116);
+ }
+
+ button#carouselExampleIndic, button.active {
+    background-color: rgb(47, 56, 187);
+ }
+ .carousel-control-next,
+ .carousel-control-prev{
+    color: blue;
+    background : rgb(216, 213, 213);
+    opacity: 90%;
+    width: 60px;
+    height: 60px;
+    margin-top: 14%;
+    border: none;
+    border-radius: 100%;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+ .carousel-control-next:hover,
+ .carousel-control-prev:hover{
+    background: gray;
+    border: 2px solid blue;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
